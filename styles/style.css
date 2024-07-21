@@ -2,25 +2,27 @@
 
 /* 
 color pallete
-  0C134F
-  1D267D
-  5C469C
-  D4ADFC
+  0b0c10
+  1f2833
+  c5c6c7
+  66fcf1
+  45a29e
 */
 
 * {
-  background-color: #0c134f;
-  color: #f4eeff;
+  background-color: #1f2833;
+  color: #eeeeee;
   line-height: 2rem;
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 .main-container {
   width: 70%;
   margin: 30px auto;
   display: grid;
-  grid-template-columns: 0.8fr 1fr;
-  gap: 5rem;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
   font-family: "Poppins", sans-serif;
   /* border: 1px solid white; */
   min-height: 93vh;
@@ -33,12 +35,47 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h1,
+h2 {
+  color: #66fcf1;
+}
+
 #rightSide {
   max-height: 95vh;
   padding: 10px 50px;
   overflow-y: scroll;
+  scrollbar-color: transparent transparent;
 }
 
 #rightSide::-webkit-scrollbar {
   display: none;
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+}
+
+.list-item {
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+.time,
+.company,
+.position {
+  font-weight: bold;
+  color: #66fcf1;
+}
+
+.time {
+  font-size: 0.9rem;
 }

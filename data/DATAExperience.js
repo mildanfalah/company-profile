@@ -1,5 +1,19 @@
 const expData = [
   {
+    time: "2024 July - PRESENT",
+    company: "DBS Foundation",
+    position: "Fasilitator at DBS Foundation Coding Camp",
+    description:
+      "As a DBS Foundation Coding Camp 2024 facilitator, I am responsible for assisting and facilitating participants in successfully completing each course. I provide guidance and support to ensure they overcome any challenges they may face throughout the program.",
+  },
+  {
+    time: "2023 - 2024",
+    company: "Self-Employed",
+    position: "Content Creator & Catering Business Owner",
+    description:
+      "I am a passionate content creator with a knack for creating engaging and informative videos, having successfully grown my YouTube channel to 3,500 subscribers. As the owner of a catering business specializing in healthy Sundanese cuisine, I am committed to providing delicious and nutritious lunch boxes for office workers. I am proficient in video editing software such as Adobe Premiere Pro.",
+  },
+  {
     time: "2017 - 2022",
     company: "PT. PERDANA JATIPUTRA",
     position: "Technical Support",
@@ -36,10 +50,10 @@ const expData = [
   },
 ];
 
-class Data {
+class ExpData {
   static getAll() {
     return expData;
   }
 }
 
-export default Data;
+export default ExpData;
