@@ -48,6 +48,18 @@ h2 {
   color: #66fcf1;
 }
 
+.resume {
+  display: inline;
+  font-size: 1.3rem;
+  margin-left: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume:hover {
+  margin-left: 25px;
+  color: #66fcf1;
+}
+
 #rightSide {
   max-height: 100vh;
   padding: 20px;
@@ -62,6 +74,7 @@ h2 {
 .list {
   display: grid;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 .list-item {
