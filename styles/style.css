@@ -15,6 +15,11 @@ color pallete
   line-height: 2rem;
   scroll-behavior: smooth;
   font-size: 14px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main-container {
@@ -24,7 +29,6 @@ color pallete
   grid-template-columns: 1fr 2fr;
   gap: 3rem;
   font-family: "Poppins", sans-serif;
-  /* border: 1px solid white; */
   min-height: 93vh;
   max-height: 93vh;
   padding: 0 30px;
@@ -45,8 +49,8 @@ h2 {
 }
 
 #rightSide {
-  max-height: 95vh;
-  padding: 10px 50px;
+  max-height: 100vh;
+  padding: 20px;
   overflow-y: scroll;
   scrollbar-color: transparent transparent;
 }
@@ -61,21 +65,58 @@ h2 {
 }
 
 .list-item {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   gap: 15px;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  transition: background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out,
+    -webkit-backdrop-filter 0.3s ease-in-out;
+}
+
+/* glass effect */
+.list-item:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.item-date,
+.item-content,
+.description,
+.item-image,
+.project-desc {
+  background: transparent;
 }
 
 .time,
 .company,
-.position {
+.position,
+.project-title {
   font-weight: bold;
   color: #66fcf1;
+  font-size: 1.1rem;
+  background: transparent;
 }
 
-.time {
-  font-size: 0.9rem;
+#project {
+  padding-bottom: 100px;
+}
+
+.thumbnail {
+  width: 200px;
+  margin: 20px;
+  border: 2px solid #66fcf1;
+  border-radius: 10px;
 }
