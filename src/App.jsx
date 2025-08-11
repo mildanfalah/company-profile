@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Product from "./components/Product";
 import Process from "./components/Process";
+import Partner from "./components/Partner";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </section>
         <section>
           <Product />
+        </section>
+        <section className="bg-[#E8F9FF]">
+          <Partner />
         </section>
       </main>
       <footer></footer>
