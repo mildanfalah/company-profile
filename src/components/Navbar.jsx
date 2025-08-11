@@ -7,16 +7,16 @@ function Navbar() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="/">Project</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="/">Blog</a>
+          <a href="/">Product</a>
         </li>
         <li>
-          <a href="/">About Us</a>
+          <a href="/">Galery</a>
         </li>
         <li>
-          <a href="/">Support</a>
+          <a href="/">Contact</a>
         </li>
       </ul>
     </div>
