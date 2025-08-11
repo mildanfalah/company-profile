@@ -17,9 +17,11 @@ function App() {
         <section>
           <About />
         </section>
+        <section className="bg-[#E8F9FF]">
+          <Process />
+        </section>
         <section>
           <Product />
-          <Process />
         </section>
       </main>
       <footer></footer>

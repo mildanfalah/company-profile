@@ -6,7 +6,7 @@ import { FaTruck, FaClock, FaEnvira, FaBox } from "react-icons/fa6";
 
 function Process() {
   return (
-    <div className="w-4/5 mx-auto my-50">
+    <div className="w-4/5 mx-auto py-20">
       <h2 className="font-montserrat font-bold text-4xl mb-10 text-center">
         Our Process
       </h2>
