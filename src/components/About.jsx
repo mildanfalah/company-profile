@@ -2,7 +2,7 @@ import building from "../assets/factory-building.jpg";
 
 function About() {
   return (
-    <div className="w-4/5 mx-auto my-30 flex gap-8">
+    <div className="w-4/5 mx-auto my-50 flex gap-8">
       <div className="flex-1">
         <img
           src={building}

@@ -4,7 +4,7 @@ import ragiInstant from "../assets/ragi-instant.jpg";
 
 function Product() {
   return (
-    <div className="w-4/5 mx-auto my-30">
+    <div className="w-4/5 mx-auto my-50">
       <h2 className="font-montserrat font-bold text-4xl mb-8">Our Product</h2>
       <div className="flex gap-10">
         <div className="card flex-1">
