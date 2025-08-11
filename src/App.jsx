@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </section>
         <section>
           <About />
+        </section>
+        <section>
+          <Product />
         </section>
       </main>
       <footer></footer>
