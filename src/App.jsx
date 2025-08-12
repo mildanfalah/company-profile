@@ -5,6 +5,7 @@ import Product from "./components/Product";
 import Process from "./components/Process";
 import Partner from "./components/Partner";
 import Testimoni from "./components/Testimoni";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -13,23 +14,18 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <section className="">
-          <Hero />
-        </section>
-        <section>
-          <About />
-        </section>
+        <Hero />
+        <About />
         <section className="bg-[#E8F9FF]">
           <Process />
         </section>
-        <section>
-          <Product />
-        </section>
+        <Product />
         <section className="bg-[#E8F9FF]">
           <Partner />
         </section>
-        <section>
-          <Testimoni />
+        <Testimoni />
+        <section className="bg-[#E8F9FF]">
+          <Gallery />
         </section>
       </main>
       <footer></footer>

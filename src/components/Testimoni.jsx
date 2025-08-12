@@ -18,7 +18,7 @@ function Testimoni() {
           <div className="right-content flex-3/4 justify-center align-middle my-auto">
             <h3 className="text-lg font-semibold italic">"Ragi Andalan!"</h3>
             <p className="text-gray-500 italic mb-1">
-              Sarah Sehan - PT Sukses Jaya Makmur
+              Najwa Shihab - Mata Najwa
             </p>
             <div className="text-yellow-400 flex">
               <IoStarSharp />
