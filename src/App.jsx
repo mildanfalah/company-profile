@@ -4,6 +4,7 @@ import About from "./components/About";
 import Product from "./components/Product";
 import Process from "./components/Process";
 import Partner from "./components/Partner";
+import Testimoni from "./components/Testimoni";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </section>
         <section className="bg-[#E8F9FF]">
           <Partner />
+        </section>
+        <section>
+          <Testimoni />
         </section>
       </main>
       <footer></footer>
